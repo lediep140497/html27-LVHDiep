@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #ccc;
+}
+
+header a {
+    color: rgb(0, 60, 255);
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+
+}
+
+header a:hover {
+    background-color: black;
+    border-radius: 2px;
+}
+
+#container {
+    display: flex;
+}
+
+.l-sidebar li {
+    color: red;
+    font-size: 30px;
+    padding: 21px 180px 21px 0;
+    border-bottom: 1px solid #000;
+}
+
+.r-sidebar {
+    background-color: rgb(26, 214, 201);
+    text-align: center;
+    padding: 0 5px;
+}
+
+.r-sidebar h2 {
+    color: red;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.r-sidebar p {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.heading-content h2 {
+    font-size: 30px;
+    margin: 5px 0;
+    color: red;
+}
+
+.heading-content p {
+    color: blue;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.content {
+    margin: 0 129px 0 40px;
+}
+
+
+tbody td {
+    font-size: 14px;
+}
+
+table {
+    margin-top: 30px;
+}
+
+table , td , th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 17px 40px;
+}
+
+footer {
+    height: 1000px;
+    background-color: #000;
+    color: rgb(0, 60, 255);
+    margin-top: 100px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
