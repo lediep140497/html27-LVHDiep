@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <style>
+        .col-lg-3 {
+            width: 20%;
+        }
+
+        .icon-a i,
+        .icon-b i,
+        .icon-c i,
+        .icon-d i {
+            display: flex;
+            justify-content: center;
+            line-height: 100px;
+            color: #fff;
+            font-size: 30px;
+
+        }
+
+        .box-position {
+            position: relative;
+        }
+
+        .box-arrow {
+            position: absolute;
+            top: 30px;
+            right: 0;
+            font-size: 30px;
+            color: #ccc;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-lg-3 box-position">
+                <div class="icon-a bg-danger rounded-circle" style="width: 100px;height: 100px;"><i
+                        class="fa-solid fa-lightbulb"></i></div>
+                <i class="fa-solid fa-arrow-right box-arrow"></i>
+                <p style="padding:10px 0 0 35px;">Idea</p>
+            </div>
+            <div class="col-lg-3 box-position">
+                <div class="icon-b bg-info rounded-circle" style="width: 100px;height: 100px;"><i
+                        class="fa-solid fa-computer"></i></div>
+                <i class="fa-solid fa-arrow-right box-arrow"></i>
+                <p style="padding:10px 0 0 18px;">Prototype</p>
+            </div>
+            <div class="col-lg-3 box-position">
+                <div class="icon-c bg-success rounded-circle" style="width: 100px;height: 100px;"><i
+                        class="fa-solid fa-terminal"></i></div>
+                <i class="fa-solid fa-arrow-right box-arrow"></i>
+                <p style="padding:10px 0 0 30px;">Coding</p>
+            </div>
+            <div class="col-lg-3">
+                <div class="icon-d bg-warning rounded-circle" style="width: 100px;height: 100px;"><i
+                        class="fa-solid fa-check "></i></div>
+                <p style="padding:10px 0 0 25px;">Testing</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/fdfb7296b0.js" crossorigin="anonymous"></script>
+    <script src="../bootstrap-5.2.2-dist/umd/poper.min.js"></script>
+    <script src="../bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

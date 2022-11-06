@@ -64,7 +64,7 @@ header a:hover {
 }
 
 .content {
-    margin: 0 129px 0 40px;
+    margin: 0 100px 0 100px;
 }
 
 
@@ -83,10 +83,9 @@ table , td , th {
 }
 
 footer {
-    height: 1000px;
+    height: 100px;
     background-color: #000;
     color: rgb(0, 60, 255);
-    margin-top: 100px;
 }
 
 footer p {
@@ -95,4 +94,62 @@ footer p {
     line-height: 50px;
     letter-spacing: 10px;
     font-weight: bolder;
+}
+
+/* Responsive */
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    section {
+        flex-direction: column;
+    }
+
+    body {
+        width: 100%;
+        margin: 0 auto 0;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header a {
+        padding: 0 2.14em;
+    }
+
+    .l-sidebar li {
+        padding: 0.625em;
+        text-align: center;
+    }
+
+    .content {
+        margin: 1.875em auto;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width:46.25em) and (max-width:63.9375em) {
+    section {
+        flex-direction: column;
+    }
+    body {
+        width: 100%;
+        margin: 0 auto 0;
+    }
+
+    header a {
+        padding: 0px 5.4095em;
+        font-size: 1.1875em;
+    }
+
+    .l-sidebar li {
+        padding: 0.625em 1.25em 0.625em 1.25em;
+        text-align: center;
+    }
+
+    .content {
+        margin: 1.875em auto;
+        text-align: center;
+    }
 }

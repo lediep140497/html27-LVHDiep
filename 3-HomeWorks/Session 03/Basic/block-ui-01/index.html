@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <style>
+        :root {
+            --light2: #f8ebeb;
+            --light-empty: #dcdcdc;
+            --danger2: #b02a37;
+            --info2: #0aa2c0;
+            --success: #198754;
+            --success2: #28a745;
+            --warning2: #cc9a06;
+            --purple: #6f42c1;
+            --purple2: #432874;
+            --pink: #e83e8c;
+            --pink2: #ab296a;
+            --primary2: #0a58ca;
+        }
+
+        .bandwidth {
+            width: 16.65%;
+            background-color: #dc3545;
+            animation-name: bandwidth;
+            animation-duration: 5s;
+        }
+
+        @keyframes bandwidth {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 16.65%;
+            }
+        }
+
+        .storage {
+            width: 41.65%;
+            background-color: #17a2b8;
+            animation-name: storage;
+            animation-duration: 4s;
+        }
+
+        @keyframes storage {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 41.65%;
+            }
+        }
+
+        .user {
+            width: 58.3%;
+            background-color: #28a745;
+            animation-name: user;
+            animation-duration: 4s;
+        }
+
+        @keyframes user {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 58.3%;
+            }
+        }
+
+        .visitor {
+            width: 24.97%;
+            background-color: #cc9a06;
+            animation-name: visitor;
+            animation-duration: 4s;
+        }
+
+        @keyframes visitor {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 24.97%;
+            }
+        }
+
+        .email {
+            width: 38%;
+            background-color: #432874;
+            animation-name: email;
+            animation-duration: 4s;
+        }
+
+        @keyframes email {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 38%;
+            }
+        }
+
+        .basic {
+            width: 66.6%;
+            background-color: #e83e8c;
+            animation-name: basic;
+            animation-duration: 5s;
+        }
+
+        @keyframes basic {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 66.6%;
+            }
+        }
+
+        .other {
+            width: 32.1%;
+            background-color: #007bff;
+            animation-name: other;
+            animation-duration: 5s;
+        }
+
+        @keyframes other {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 32.1%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="background-color: var(--light1);">
+        <div class="row p-3 ">
+            <div class="col-2 p-3 text-center text-light border border-dark border-opacity-10"
+                style="background-color:var(--danger2);">BANDWIDTH</div>
+            <div class="col-2 p-3 text-light bg-danger border border-dark border-opacity-10 bandwidth">20%</div>
+            <div class="col-8 p-3 border border-dark border-opacity-10" style="background-color:var(--light-empty);">
+            </div>
+        </div>
+
+        <div class="row p-3 ">
+            <div class="col-2 p-3 text-center text-light border border-dark border-opacity-10"
+                style="background-color:var(--info2);">STORAGE</div>
+            <div class="col-5 p-3 text-light bg-info border border-dark border-opacity-10 storage">50%</div>
+            <div class="col-5 p-3 border border-dark border-opacity-10" style="background-color:var(--light-empty);">
+            </div>
+        </div>
+
+        <div class="row p-3 ">
+            <div class="col-2 p-3 text-center text-light border border-dark border-opacity-10"
+                style="background-color:var(--success);">USERS</div>
+            <div class="col-7 p-3 text-light border border-dark border-opacity-10 user"
+                style="background-color:var(--success2)">70%</div>
+            <div class="col-3 p-3 border border-dark border-opacity-10" style="background-color:var(--light-empty);">
+            </div>
+        </div>
+
+        <div class="row p-3 ">
+            <div class="col-2 p-3 text-center text-light border border-dark border-opacity-10"
+                style="background-color:var(--warning2);">VISITORS</div>
+            <div class="col-3 p-3 text-light bg-warning border border-dark border-opacity-10 visitor">30%</div>
+            <div class="col-7 p-3 border border-dark border-opacity-10" style="background-color:var(--light-empty);">
+            </div>
+        </div>
+
+        <div class="row p-3 ">
+            <div class="col-2 p-3 text-center text-light border border-dark border-opacity-10"
+                style="background-color:var(--purple2);">EMAILS</div>
+            <div class="col-4 p-3 text-light border border-dark border-opacity-10 email"
+                style="background-color:var(--purple);width: 38%;">45%</div>
+            <div class="col-6 p-3 border border-dark border-opacity-10"
+                style="background-color:var(--light-empty);width: 45%;"></div>
+        </div>
+
+        <div class="row p-3 ">
+            <div class="col-2 p-3 text-center text-light border border-dark border-opacity-10"
+                style="background-color:var(--pink2);">BASIC</div>
+            <div class="col-8 p-3 text-light border border-dark border-opacity-10 basic"
+                style="background-color:var(--pink);">80%</div>
+            <div class="col-2 p-3 border border-dark border-opacity-10" style="background-color:var(--light-empty);">
+            </div>
+        </div>
+
+        <div class="row p-3 ">
+            <div class="col-2 p-3 text-center text-light border border-dark border-opacity-10"
+                style="background-color:var(--primary2);">OTHERS</div>
+            <div class="col-4 p-3 text-light bg-primary border border-dark border-opacity-10 other" style="width: 32%;">
+                37%</div>
+            <div class="col-6 p-3 border border-dark border-opacity-10"
+                style="background-color:var(--light-empty);width: 51%;"></div>
+        </div>
+    </div>
+
+    <script src="../bootstrap-5.2.2-dist/umd/poper.min.js"></script>
+    <script src="../bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
