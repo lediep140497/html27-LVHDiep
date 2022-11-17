@@ -19,13 +19,13 @@
         }
 
         .btn-form {
-            padding: 40px 20px;
+            padding: 40px 20px 10px;
             text-align: end;
         }
 
         .btn-item {
-            padding: 10px 30px;
-            margin: 0 15px;
+            padding: 10px 40px;
+            margin: 0 10px;
 
         }
 
@@ -37,32 +37,22 @@
 
 
     <form id="myForm" onsubmit="return false">
-        <h1 style="padding: 0 0 30px;text-align: center;color: rgb(56, 56, 56);">FORM</h1>
-        <div class="row mb-3">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3">
-            </div>
+        <h1 class="text-center">FORM</h1>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email">
         </div>
-        <div class="row mb-3">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3">
-            </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password">
         </div>
-
-        <div class="col-sm-10">
-            <div class="form-check" style="margin: 20px 0 0 113px;">
-                <input class="form-check-input" type="checkbox" id="gridRadios1" value="option1">
-                <label class="form-check-label" for="gridRadios1">
-                    Remember
-                </label>
-            </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember</label>
         </div>
-
         <div class="btn-form">
-            <button type="submit" id="btn__submit" class="btn btn-primary btn-item ">Sign</button>
-            <span><button type="submit" class="btn btn-danger btn-item ">Exit</button></span>
+            <button type="submit" class="btn btn-primary btn-item">Submit</button>
+            <button type="submit" class="btn btn-danger btn-item" style="width: 132px;">Exit</button>
         </div>
     </form>
 
@@ -73,8 +63,8 @@
     <script src="./jquery/jquery.validate.min.js"></script>
     <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="./bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
-    <script src="./js/from.js"></script>
     <script src="./js/ajax.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 
 </html>

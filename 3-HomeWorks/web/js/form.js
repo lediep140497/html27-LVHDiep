@@ -23,7 +23,7 @@ let settings = {
       password: {
         required: "Bạn chưa nhập password",
         minlength: "Tối thiểu có {0} kí tự",
-        maxlength: "Tối đa có {12} kí tự",
+        maxlength: "Tối đa có {0} kí tự",
       },
     },
   };
