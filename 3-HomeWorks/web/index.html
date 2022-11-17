@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web User</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+
+    <style>
+        .container {
+            width: 80%;
+            height: 1000px;
+            margin: 44px auto 0;
+            background-color: rgb(238, 232, 224);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(56, 56, 56);
+        }
+
+        .row-btn {
+            background-color: rgb(227, 90, 90);
+            padding: 10px 20px;
+            margin: 20px 20px 30px;
+        }
+
+        .row-btn:hover {
+            background-color: rgba(165, 42, 42, 0.747);
+            color: #fff;
+        }
+
+        .row-btn:active {
+            font-size: 10px;
+            transition: 1s;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <header></header>
+
+<div class="container">
+    <h1>USERS</h1>
+    <button class="row-btn" onclick="getListUser()">get list user</button>
+    <button class="row-btn" onclick="postUser()">Create User</button>
+    <button class="row-btn" onclick="putUser()">updated User</button>
+    <div id="result">
+        <div class="table-responsive "></div>
+    </div>
+</div>
+
+    <footer></footer>
+
+
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/ajax.js"></script>
+</body>
+
+</html>

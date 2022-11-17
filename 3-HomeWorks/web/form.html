@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <style>
+        #myForm {
+            width: 50%;
+            margin: 80px auto 0;
+            padding: 40px 60px;
+            border: 1px solid #ced4da;
+            border-radius: 10px;
+            background-color: #f3efef;
+
+        }
+
+        .btn-form {
+            padding: 40px 20px;
+            text-align: end;
+        }
+
+        .btn-item {
+            padding: 10px 30px;
+            margin: 0 15px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header></header>
+
+
+    <form id="myForm" onsubmit="return false">
+        <h1 style="padding: 0 0 30px;text-align: center;color: rgb(56, 56, 56);">FORM</h1>
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <div class="form-check" style="margin: 20px 0 0 113px;">
+                <input class="form-check-input" type="checkbox" id="gridRadios1" value="option1">
+                <label class="form-check-label" for="gridRadios1">
+                    Remember
+                </label>
+            </div>
+        </div>
+
+        <div class="btn-form">
+            <button type="submit" id="btn__submit" class="btn btn-primary btn-item ">Sign</button>
+            <span><button type="submit" class="btn btn-danger btn-item ">Exit</button></span>
+        </div>
+    </form>
+
+    <footer></footer>
+
+
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./jquery/jquery.validate.min.js"></script>
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="./js/from.js"></script>
+    <script src="./js/ajax.js"></script>
+</body>
+
+</html>
